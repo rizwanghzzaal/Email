@@ -70,13 +70,7 @@ We are awaiting your reply about this situation.
 
 If you have any questions concerning this matter, do not hesitate to call us or to reply to this email.
 
-Thank you for your cooperation,
 
-WebSouls | Company of FutureSouls Group
-M 92.321.4077991 | T 92.423.523.8871-73
-Add. Office # 22, 2nd Office Floor, IT Tower,
-Behind Hafeez Center, 73-E-1, Hali Road, Gulberg III, Lahore
-www.websouls.com
 
 EOF
 fi
