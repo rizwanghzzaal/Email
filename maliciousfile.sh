@@ -1,7 +1,6 @@
 > /root/rizwan/maliciousfiles
 read -p  "Enter username: " user
 Domain=$(grep $user /etc/userdomains | head -n1 | cut -d : -f1)
-#python <(curl -k -s "http://scripts.websouls.com/mscan/V6/robotV6.py")  -su $user
 cat /root/found_shells.log |grep  $user | grep $(date +"%Y-%m-%d") > maliciousfiles
 Malicious=`cat /root/rizwan/maliciousfiles`
 read -p "Do you wish to send email to client [y/n] " a
@@ -31,7 +30,7 @@ break ;;
 *) echo "Enter a Valid option" ;;
 esac
 done
-mail -r "WebSouls Support<support@websouls.com>"  -s "Malicious Content Found On your $Domain"  $email  << EOF
+mail -r "youremail"  -s "Malicious Content Found On your $Domain"  $email  << EOF
 Dear Client,
 
 As you might aware that we already sent you spam notification and action is due at your end. In order to maintain our strong relation, we investigated your account and performed some scanning on your behalf this time only and fixed it temporarily, you’re requested to fix it permanently to avoid such issues in future.
